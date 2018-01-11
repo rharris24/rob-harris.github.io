@@ -1,0 +1,181 @@
+<!doctype html> 	<!-- -->
+<html>
+<head>	
+<meta charset="utf-8">
+<link rel="stylesheet" href="CSS/Style.css">
+<link rel="stylesheet" type="text/css" href="https://www.jeasyui.com/easyui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="https://www.jeasyui.com/easyui/themes/icon.css">
+<script src="https://code.jquery.com/jquery-1.6.1.min.js"></script>
+<script src="https://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>
+<script src="JS/JS.js"></script>
+<link rel="shortcut icon" href="Assets/General/favicon.ico" type="image/x-icon">	<!--Sets a favicon image in the browser tab-->
+<link rel="apple-touch-icon" href="Assets/General/favicon.ico" type="image/x-icon">
+<title>EMINEM | Shop</title>
+</head>
+<body>
+	<!--Title and nav-bar-->
+	<div id="Title">
+		<a href="Index.html">
+			<img class="Home_Button" src="Assets/General/Home_Button.jpg" alt="EMINEM">
+		</a>
+		<div class="Menu">
+			<img class="Menu-Pic" src="Assets/General/Menu-pic.svg" alt="M">	
+			<div class="Nav-bar">
+				<a href="News.html">NEWS</a>
+				<a href="Shop.html">SHOP</a>
+				<a href="Music.html">MUSIC</a>
+				<a href="Video.html">VIDEO</a>
+				<a href="Events.html">EVENTS</a>	
+				<a href="About.html">ABOUT</a>
+				<a href="DEMO.html">DEMO</a>
+				<div class="Social"><a>SOCIAL</a>
+					<div class="Social-Dropdown">
+						<a href="https://www.facebook.com/eminem/" target="_blank" title="Official Eminem Facebook Page"><img id="Facebook" src="Assets/Logos/Facebook-logo.png" alt="F"></a>
+						<a href="https://twitter.com/eminem?lang=en" target="_blank" title="Official Eminem Twitter"><img id="Twitter" src="Assets/Logos/Twitter-logo.png" alt="T"></a>
+						<a href="https://www.youtube.com/channel/UC20vb-R_px4CguHzzBPhoyQ" target="_blank" title="Eminem Youtube"><img id="Youtube" src="Assets/Logos/Youtube-logo.ico" alt="Y"></a>
+						<a href="https://www.instagram.com/eminem/?hl=en" target="_blank" title="Official Eminem Instagram"><img id="Instagram" src="Assets/Logos/Instagram-logo.png" alt="I"></a>
+						<a href="https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR" target="_blank" title="Eminem Spotify"><img id="Spotify" src="Assets/Logos/Spotify-logo.png" alt="S"></a>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+	<!--Contents of page-->
+	<div class="Shop_Page">
+		<div class="Cart">
+			<div class="Shopping_Cart"><img src="Assets/Shop/Shopping_Cart.png" alt="Cart"></div>
+			<h1>BASKET</h1>
+			<div id="Shopping_Cart">
+				<table id="Shopping_Cart_Content">
+					<thead>
+						<tr>
+							<th id="Field_Name" field="name">Name</th>
+							<th id="Field_Quantity" field="quantity">Quantity</th>
+							<th id="Field_Price" field="price">Price</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+			<a class="Total_Cost">Total: £0</a>
+			<button type="button" onclick="ClearCart()">Purchase</button>
+		</div>
+		<div id="Shop_Items">
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/Basic_E_Crewneck_Black.png" alt="Item_Pic">
+				<p class="Item_Name" data="40">BASIC E CREWNECK</p>
+				<p class="Item_Price">$40.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/Basic_E_Tee.png" alt="Item_Pic">
+				<p class="Item_Name" data="25">BASIC E T-SHIRT</p>
+				<p class="Item_Price">$25.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/Hi_My_Name_Is_Tee.png" alt="Item_Pic">			
+				<p class="Item_Name" data="25">HI, MY NAME IS... T-SHIRT</p>
+				<p class="Item_Price">$25.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/I_m_The_Real_Slim_Shady_Tee.png" alt="Item_Pic">
+				<p class="Item_Name" data="25">I'M THE REAL SLIM SHADY T-SHIRT</p>
+				<p class="Item_Price">$25.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/Revival_Flag_Hoodie.png" alt="Item_Pic">
+				<p class="Item_Name" data="55">OFFICIAL REVIVAL FLAG HOODIE</p>
+				<p class="Item_Price">$55.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/Revival_Logo_Hoodie.png" alt="Item_Pic">
+				<p class="Item_Name" data="55">OFFICIAL REVIVAL LOGO HOODIE</p>
+				<p class="Item_Price">$55.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/Revival_Logo_Tee.png" alt="Item_Pic">
+				<p class="Item_Name" data="25">OFFICIAL REVIVAL LOGO T-SHIRT</p>
+				<p class="Item_Price">$25.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/Rx_Logo_Tee.png" alt="Item_Pic">
+				<p class="Item_Name" data="25">OFFICIAL REVIVAL RX T-SHIRT</p>
+				<p class="Item_Price">$25.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/Slim_Shady_Black_Crewneck.png" alt="Item_Pic">
+				<p class="Item_Name" data="40">SLIM SHADY CREWNECK</p>
+				<p class="Item_Price">$40.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/Slim_Shady_Black_Hoodie.png" alt="Item_Pic">
+				<p class="Item_Name" data="55">SLIM SHADY HOODIE</p>
+				<p class="Item_Price">$55.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/Slim_Shady_Tee.png" alt="Item_Pic">
+				<p class="Item_Name" data="25">SLIM SHADY T-SHIRT</p>
+				<p class="Item_Price">$25.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/Super_E_Hoodie_Navy.png" alt="Item_Pic">
+				<p class="Item_Name" data="55">SUPER E HOODIE</p>
+				<p class="Item_Price">$55.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/Super_E_Tee.png" alt="Item_Pic">
+				<p class="Item_Name" data="25">SUPER E T-SHIRT</p>
+				<p class="Item_Price">$25.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/take_aim_hoodie_no_music.png" alt="Item_Pic">
+				<p class="Item_Name" data="55">TAKE AIM HOODIE</p>
+				<p class="Item_Price">$55.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/take_aim_no_music.png" alt="Item_Pic">
+				<p class="Item_Name" data="55">TAKE AIM T-SHIRT</p>
+				<p class="Item_Price">$55.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/The_Way_I_Am_Black_Hoodie.png" alt="Item_Pic">
+				<p class="Item_Name" data="55">THE WAY I AM HOODIE (BLACK)</p>
+				<p class="Item_Price">$55.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/The_Way_I_Am_Maroon_Hoodie.png" alt="Item_Pic">
+				<p class="Item_Name" data="55">THE WAY I AM HOODIE (MAROON)</p>
+				<p class="Item_Price">$55.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/The_Way_I_Am_Navy_Hoodie.png" alt="Item_Pic">
+				<p class="Item_Name" data="55">THE WAY I AM HOODIE (NAVY)</p>
+				<p class="Item_Price">$55.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/The_Way_I_Am_Navy_Tee.png" alt="Item_Pic">
+				<p class="Item_Name" data="25">THE WAY I AM T-SHIRT</p>
+				<p class="Item_Price">$25.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/Till_I_Collapse_Heather_Gray_Crewneck.png" alt="Item_Pic">
+				<p class="Item_Name" data="40">TILL I COLLAPSE CREWNECK</p>
+				<p class="Item_Price">$40.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/Till_I_Collapse_Hoodie_Black.png" alt="Item_Pic">
+				<p class="Item_Name" data="55">TILL I COLLAPSE HOODIE</p>
+				<p class="Item_Price">$55.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/Revival_Flag_Beanie.png" alt="Item_Pic">
+				<p class="Item_Name" data="20">OFFICIAL REVIVAL FLAG BEANIE</p>
+				<p class="Item_Price">$20.00</p>			
+			</div>
+			<div class="Shop_Item">
+				<img class="Item_Pic" src="Assets/Shop/Revival_Flag_Cap.png" alt="Item_Pic">
+				<p class="Item_Name" data="20">OFFICIAL REVIVAL FLAG CAP</p>
+				<p class="Item_Price">$20.00</p>			
+			</div>
+		</div>
+	</div>
+</body>
+</html>

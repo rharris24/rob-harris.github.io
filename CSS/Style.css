@@ -1,0 +1,1489 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: black;
+	color: white;
+	font-family: "Helvetica Neue LT Std 73 Bold Extended", Helvetica, serif;
+	font-weight: bold;
+}
+#Facebook, #Twitter, #Youtube, #Instagram, #Spotify {
+	height:16px;
+	width:16px;
+}
+/*  Home page  */
+#Featured {
+	position: relative;
+	width:100%;
+	height: auto;
+}
+#Latest_News{
+	position: relative;
+	width: 50%;
+	height: 300px;
+	float: left;
+	border-bottom: 1px solid #303030;
+	border-right: 1px solid #303030;
+}
+#Upcoming_Events{
+	position: relative;
+	width: 50%;
+	height: 300px;
+	float: right;
+	border-bottom: 1px solid #303030;
+	margin-left: -1px;
+}
+#More_Buttons{
+	position: relative;
+	width: 100%;
+	height: 300px;
+	display:flex;
+	justify-content: space-around;
+	padding: 0;
+	margin:0;
+	border-bottom: 1px solid #303030;
+}
+.New-album{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: auto;
+	max-height: 700px;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+}
+.Announcement{
+	position: relative;
+	top: -100px;
+	left: 5%;
+	color: white;
+	text-decoration: none;
+	font-size: 150%;
+	background: #000000b3;
+}
+.Link{
+	position: relative;
+	top: -120px;
+	left: 5%;
+	width: 202px;
+	color: #CC2626;
+	text-decoration: none;
+	font-size: 200%;
+	background: #000000b3;
+}
+#Latest_News h1{
+	margin: 0;
+	margin-top: 5px;
+	padding-left: 10px;
+	border-bottom: 1px solid #303030;	
+}
+#Home-Lower-News{
+	width: 100%;
+	display: flex;	
+	justify-content: space-between;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+#Home-Lower-News img{
+	height: 150px;
+	width: 150px;
+}
+#Home-Lower-News h2{
+	color: #CC2626;
+	width: 150px;
+	font-size: 60%;
+	margin: 0;
+}
+#Home-Lower-News p{
+	width: 150px;
+	font-size: 50%;
+	margin: 0;
+}
+.Home_News_Item1{
+	top: 10px;
+	padding: 0px 10px;
+	position: relative;
+	height: 240px;
+}
+.Home_News_Item2{
+	top: 10px;
+	padding: 0px 10px;
+	position: relative;
+	height: 240px;
+}
+.Home_News_Item3{
+	top: 10px;
+	padding: 0px 10px;
+	position: relative;
+	height: 240px;
+}
+.Home_News_Item4{
+	top: 10px;
+	padding: 0px 10px;
+	position: relative;
+	height: 240px;
+}
+#Upcoming_Events h1{
+	margin: 0;
+	margin-top: 5px;
+	padding-left: 10px;
+	border-bottom: 1px solid #303030;
+}
+#Home_Eminem_Events{
+	position: relative;
+	width: 100%;
+	height: 257px;
+	float: left;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.Home_Event{
+	color: white;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	padding: 10px 0px;
+	border-bottom: 1px solid #303030;
+}
+.Home_Event .Home_Event_Details{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	line-height: 24px;
+}
+.Home_Event:hover{
+	background-color: #303030;
+}
+.Home_Event .Home_Event_Details .Home_Event_Date{
+	width: 12%;
+	padding-left: 5px;
+}
+.Home_Event .Home_Event_Details .Home_Event_Venue{
+	width: 44%;
+	padding-left: 5px;
+}
+.Home_Event .Home_Event_Details .Home_Event_Location{
+	width: 44%;
+	padding-left: 5px;
+}
+.Home_Event .Home_Ticket_Button{
+	width: 131px;
+	padding: 10px;
+	text-align: center;
+	font-size: 75%;
+	background-color: #CC2626;
+}
+#More_Buttons img{
+	position: absolute;
+	height: 200px;	
+	width: 200px;	
+}
+.Shop{
+	top: 50px;
+	left: 20%;
+	margin-left: -100px;
+}
+.Music{
+	top: 50px;
+	left: 50%;
+	margin-left: -100px;
+}
+.Video{
+	top: 50px;
+	right: 20%;
+	margin-right: -100px;
+}
+.ShopText{
+	top: 10px;
+	font-size: 200%;
+	position: absolute;
+	left: 20%;
+	margin-left: -45.345px;
+}
+.MusicText{
+	top: 10px;
+	font-size: 200%;
+	position: absolute;
+	text-align: center;
+	padding: 0;
+}
+.VideoText{
+	top: 10px;
+	font-size: 200%;
+	position: absolute;
+	right: 20%;
+	margin-right: -49.79px;
+}
+.Labels{
+	width: 100%;
+	margin: 10px 0px;
+	padding-bottom: 7px;
+	float: left;
+	position: absolute;
+	text-align: center;
+	border-bottom: 1px solid #303030;
+}
+.Pictures ul{
+	position: relative;
+	top: 40px;
+	height: 80px;
+	width: 100%;
+	max-width: 700px;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0;
+	margin:0 auto;
+}
+.Pictures li {
+	display:inline;
+}
+.Pictures a{
+	text-decoration:none;
+	color: white;
+	display:inline-block;	
+	width: 100px;
+	padding: 0;
+}
+/*  End of home page  */
+#Main-News{
+	position: relative;
+	top: 95px;
+	float: left;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+#New_Video{
+	width: 100%;
+	height: auto;
+}
+.News_Announcement{
+	position: relative;
+	top: -100px;
+	left: 5%;
+	color: white;
+	text-decoration: none;
+	font-size: 150%;
+	background: #000000b3;
+}
+.News_Link{
+	position: relative;
+	top: -120px;
+	left: 5%;
+	width: 207px;
+	color: #CC2626;
+	text-decoration: none;
+	font-size: 200%;
+	background: #000000b3;
+}
+#twitter{
+	position: relative;
+	right: 20px;
+	width: 25%;
+	height: 700px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	float: right;
+}
+#Lower-News{
+	position: relative;
+	float: left;
+	top: -20px;
+	width: 75%;
+	height: 750px;
+}
+#Lower-News img{
+	height: 300px;
+	width: 300px;
+}
+#Lower-News h1{
+	color: #CC2626;
+	width: 300px;
+	font-size: 80%;
+}
+#Lower-News p{
+	width: 300px;
+	font-size: 50%;
+}
+.News_Item1{
+	position: absolute;
+	top: 20px;
+	left: 30%;
+	margin-left: -160px;
+}
+.News_Item2{
+	position: absolute;
+	top: 20px;
+	right: 30%;
+	margin-right: -160px;
+}
+.News_Item3{
+	position: absolute;
+	top: 380px;
+	left: 30%;
+	margin-left: -160px;
+}
+.News_Item4{
+	position: absolute;
+	top: 380px;
+	right: 30%;
+	margin-right: -160px;
+}
+.Event_Table_Title{
+	top: 120px;
+	width: 95%;
+	left: 50%;
+	margin-left: -47.5%;
+	position: relative;
+	color: #CC2626;
+	font-size: 150%;
+	border-bottom: 1px solid #303030;
+}
+.Event{
+	position: relative;
+	width: 95%;
+	top: 120px;
+	left: 50%;
+	margin-left: -47.5%;
+	color: white;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	padding: 10px 0px;
+	border-bottom: 1px solid #303030;
+}
+.Event .Event_Details{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	line-height: 24px;
+}
+.Event:hover{
+	background-color: #303030;
+}
+.Event .Event_Details .Event_Date{
+	width: 12%;
+	min-width: 22px;
+	padding-left: 5px;
+	cursor: default;
+}
+.Event .Event_Details .Event_Venue{
+	width: 44%;
+	min-width: 57px;
+	padding-left: 5px;
+	cursor: default;
+}
+.Event .Event_Details .Event_Location{
+	width: 44%;
+	min-width: 56px;
+	padding-left: 5px;
+	cursor: default;
+}
+.Event .Coachella_Ticket_Button{
+	width: 177px;
+	padding: 10px;
+	margin-right: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: #CC2626;
+	cursor: pointer;
+}
+.Event .Boston_Ticket_Button{
+	width: 177px;
+	padding: 10px;
+	margin-right: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: #CC2626;
+	cursor: pointer;
+}
+.Event .Governors_Ticket_Button{
+	width: 177px;
+	padding: 10px;
+	margin-right: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: #CC2626;
+	cursor: pointer;
+}
+.Coachella_Directions_Button1{
+	width: 177px;
+	margin-left: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: #CC2626;
+	cursor: pointer;
+}
+.Coachella_Directions_Button2{
+	width: 177px;
+	margin-left: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: #CC2626;
+	cursor: pointer;
+}
+.Boston_Directions_Button1{
+	width: 177px;
+	margin-left: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: #CC2626;
+	cursor: pointer;
+}
+.Boston_Directions_Button2{
+	width: 177px;
+	margin-left: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: #CC2626;
+	cursor: pointer;
+}
+.Boston_Directions_Button3{
+	width: 177px;
+	margin-left: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: #CC2626;
+	cursor: pointer;
+}
+.Governors_Directions_Button1{
+	width: 177px;
+	margin-left: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: #CC2626;
+	cursor: pointer;
+}
+.Governors_Directions_Button2{
+	width: 177px;
+	margin-left: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: #CC2626;
+	cursor: pointer;
+}
+.Governors_Directions_Button3{
+	width: 177px;
+	margin-left: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: #CC2626;
+	cursor: pointer;
+}
+.Event .Coachella_Directions_Button1:hover .Coachella_Directions1{	
+	display: block;
+}
+.Event .Coachella_Directions_Button2:hover .Coachella_Directions2{
+	display: block;
+}
+.Event .Boston_Directions_Button1:hover .Boston_Calling_Directions1{
+	display: block;
+}
+.Event .Boston_Directions_Button2:hover .Boston_Calling_Directions2{
+	display: block;
+}
+.Event .Boston_Directions_Button3:hover .Boston_Calling_Directions3{
+	display: block;
+}
+.Event .Governors_Directions_Button1:hover .Governors_Ball_Directions1{
+	display: block;
+}
+.Event .Governors_Directions_Button2:hover .Governors_Ball_Directions2{
+	display: block;
+}
+.Event .Governors_Directions_Button3:hover .Governors_Ball_Directions3{
+	display: block;
+}
+.Map{
+	height: 100%;
+	width: 100%;
+}
+.Coachella_Directions1{
+	display: none;
+	position: absolute;
+	height: 500px;
+	width: 100%;
+	top: 60px;
+	left: 50%;
+	margin-left: -50%;
+	z-index: +1;
+}
+.Coachella_Directions2{
+	display: none;
+	position: absolute;
+	height: 500px;
+	width: 100%;
+	top: 60px;
+	left: 50%;
+	margin-left: -50%;
+	z-index: +1;
+}
+.Boston_Calling_Directions1{
+	display: none;
+	position: absolute;
+	height: 500px;
+	width: 100%;
+	top: 60px;
+	left: 50%;
+	margin-left: -50%;
+	z-index: +1;
+}
+.Boston_Calling_Directions2{
+	display: none;
+	position: absolute;
+	height: 500px;
+	width: 100%;
+	top: 60px;
+	left: 50%;
+	margin-left: -50%;
+	z-index: +1;
+}
+.Boston_Calling_Directions3{
+	display: none;
+	position: absolute;
+	height: 500px;
+	width: 100%;
+	top: 60px;
+	left: 50%;
+	margin-left: -50%;
+	z-index: +1;
+}
+.Governors_Ball_Directions1{
+	display: none;
+	position: absolute;
+	height: 500px;
+	width: 100%;
+	top: 60px;
+	left: 50%;
+	margin-left: -50%;
+	z-index: +1;
+}
+.Governors_Ball_Directions2{
+	display: none;
+	position: absolute;
+	height: 500px;
+	width: 100%;
+	top: 60px;
+	left: 50%;
+	margin-left: -50%;
+	z-index: +1;
+}
+.Governors_Ball_Directions3{
+	display: none;
+	position: absolute;
+	height: 500px;
+	width: 100%;
+	top: 60px;
+	left: 50%;
+	margin-left: -50%;
+	z-index: +1;
+}
+#Videos{
+	position: relative;
+	top:100px;
+	width: 100%;
+	height: auto;
+}
+#Videos img{
+	position: relative;
+	top: 0;
+	width:100%;
+}
+#Video3{
+	margin-top: -40px;
+}
+#Video4{
+	margin-top: -40px;
+}
+#Video5{
+	margin-top: -40px;
+}
+#Video6{
+	margin-top: -40px;
+}
+.Interview_Video{
+	width: 100%;
+	height: 700px;
+}
+.Orange_Video{
+	width: 100%;
+	height: 700px;
+}
+.WoW_Video{
+	width: 100%;
+}
+.Phenomenal_Video{
+	width: 100%;
+}
+.Monster_Video{
+	Width:100%;
+}
+.God_Video{
+	width:100%;
+}
+.Video_Title{
+	position: relative;
+	font-size: 200%;
+	top: 40px;
+	z-index: +1;
+}
+#Artist_Information{
+	position: relative;
+	top: 97px;
+	float: left;
+	width: 90%;
+	left: 50%;
+	margin-left: -45%;
+	border: 1px solid #303030;
+	border-top: none;
+}
+.Content{
+	padding: 10px;
+	padding-top: 0;
+}
+.Eminem_Image{
+	padding: 10px;
+	position: relative;
+	width: 222px;
+	float: left;
+}
+.Description{
+	position: relative;
+	width: 222px;
+	float: left;
+	font-size: 49%;
+	left: -232px;
+	top: 440px;
+}
+#Album_Pictures{
+	position: relative;
+	top: 100px;
+	width: 70%;
+	height: auto;
+	left: 50%;
+	margin-left: -35%;	
+}
+#Album_Pictures h1{
+	text-align: center;
+	color: #CC2626;
+	font-size: 300%;
+	margin: 0;
+	margin-top: 30px;
+}
+#Album_Pictures img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.Rdate{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: -10px;
+}
+.Album_Section{
+	float: left;	
+	padding: 20px;
+	margin: 0px 0px -1px -1px;
+	width: 33%;
+	border: 1px solid #303030;
+	box-sizing: border-box;
+}
+#Bottom_Buttons{
+	position: relative;
+	bottom:0;
+	width: 100%;
+	height: 150px;
+}
+#Bottom_Buttons2{
+	position: relative;
+	top: 100px;
+	float: left;
+	display: inline-block;
+	width: 100%;
+	height: 150px;
+}
+.Shop_Page{
+	position: relative;
+	top: 95px;
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+}
+.Cart{	
+	display: table-cell;
+	width: 300px;
+	border: 1px solid #303030;
+	vertical-align: top;	
+}
+.Cart h1{	
+	margin: 15px 0 15px 0;
+	text-align: center;	
+}
+.Search_Bar a:hover{
+	color: #CC2626;
+}
+.Shopping_Cart{
+	position: relative;
+	width: 300px;
+	margin-bottom: -1px;
+	border-bottom: 1px solid #303030;
+	padding: 0 !important;
+}
+.Shopping_Cart img{
+	position: relative;
+	padding: 7px 5px 5px 5px;
+	left: 50%;
+	margin-left: -30px;
+	width: 50px;
+}
+#revival_filter{
+	padding-top: 25px;
+}
+#Field_Name{
+	width: auto;
+	max-width: 180px;
+	float: left;
+}
+#Field_Quantity{
+	width: auto;
+	float: left;
+}
+#Field_Price{
+	width: auto;
+	float: right;
+}
+.Shop_Items{
+	display: table-cell;
+	width: 100%;
+}
+.Shop_Item{
+	width: 25%;
+	float: left;
+	margin: 0px 0px -1px -1px;
+	border: 1px solid #303030;
+	box-sizing: border-box;
+	padding: 15px;	
+}
+.Item_Name{
+	font-size: 100%;
+	height: 54px;
+	width: 100%;
+	display: inline-block;
+	margin-left: 0;
+}
+.Item_Name{
+	font-size: 100%;
+}
+#Sizes{
+	width: 100%;
+}
+#Sizes ul{
+	position: relative;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	width:100%;
+	padding: 0;
+}
+#Sizes a{
+	background: #CC2626;
+	padding: 5px;
+	cursor: pointer;
+}
+.Item_Pic{
+	width: 100%;
+}
+.Add_To_Cart{
+	width: 45px;
+	height: auto;
+	position: relative;
+	float: left;
+	margin-top: -100%;
+	margin-left: 5px;
+	cursor: pointer;
+}
+#Album_Page{
+	position: relative;
+	top: 95px;
+	width: 80%;
+	margin-left: -40%;
+	left: 50%;
+}
+#Album_Details{
+	display: table-cell;
+	width: 30%;
+	height: 800px;
+	float: left;
+	height: 500px;
+	margin: 0px 0px -1px -1px;
+	padding: 15px;
+}
+#Album_Details a{
+	float: left;
+	text-decoration: none;
+	color: white;
+	padding-top: 15px;
+	width: 100%;
+}
+#Album_Cover{
+	width: 100%;
+}
+#Apple_Music_Link{
+	vertical-align: top;
+	padding-bottom: 20px;
+}
+#Apple_Music_Link:hover{
+	color: #CC2626;
+}
+#Album_Name{
+	position: relative;
+	color: #CC2626;
+	font-size: 300%;
+	text-align: center;
+	border-bottom: 1px solid #303030;
+	margin-bottom: 0;
+}
+.Apple_Logo{
+	position: relative;
+	width: 20px;
+	height: auto;
+	margin-left: 5px;
+}
+#Spotify_Embed{
+	width: 100%;
+	height: 100px;
+}
+#Album_Songs{
+	display: table-cell;
+	width: 70%;
+	padding: 15px;
+	border-left: 1px solid #303030;
+	height: 100%;
+}
+#Album_Songs a{
+	width: 100%;
+	margin-bottom: 15px;
+	float: left;
+	cursor: pointer;
+}
+#Album_Songs a:hover{
+	color: #CC2626;
+}
+.Demo_Video{
+	position: relative;
+	top: 100px;
+	width: 80%;
+	left: 50%;
+	margin-left: -40%;
+	height: 700px;
+}
+#Critical_Log{
+	top: 130px;
+	position: relative;
+	padding: 15px;
+	width: 80%;
+	left: 50%;
+	margin-left: -40%;
+	border: 1px solid #303030;
+	border-bottom: none;
+}
+#CL_Title{
+	text-align: center;
+	width: 100%;
+}
+#UOL_Logo{
+	width: 100%;
+	float: left;
+}
+.Figure_Tag{
+	font-style: italic;
+	text-align: center;
+	padding: 15px;
+}
+.Figure_Tag img{
+	width: 100%;
+}
+#Figure6{
+	width: 50% !important;
+	padding-right: 50%;
+}
+#Figure7{
+	width: 50% !important;
+	padding-right: 50%;
+	padding-right: 50%;
+}
+#CL_Bibliography{
+	height: 100px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.Bibliography_Item{	
+	float: left;
+	width: 100%;
+	text-decoration: none;
+	color: white;
+}
+.Bibliography_Item:hover{
+	color: #CC2626;
+}
+.CL_Image{
+	float: left;	
+	width: 20%;
+	box-sizing: border-box;
+}
+.CL_Image img{
+	width: 100%;
+}
+@media(max-width: 1020px){
+@media(min-width: 751px){
+/*  Home page  */
+#Latest_News{
+	margin-top: -86px;
+}
+#Upcoming_Events{
+	margin-top: -86px;
+}
+/*  End of home page  */
+}
+/*  Nav bar  */
+.Home_Button{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 200px;
+	height: 32px;		
+	cursor: pointer;
+}
+.Menu-Pic {
+	position:absolute;
+	height: 30px;
+	width: 30px;
+	top: 10px;
+	right: 30px;
+	cursor: pointer;
+}
+.Nav-bar{
+	display: none;
+	position: relative;
+	top: 30px;
+	bottom: 0;
+	padding: 0;
+	width: 100%;
+	text-decoration: none;
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	box-sizing: border-box;
+}
+.Nav-bar a{
+	width: 100%;
+	padding: 10px;
+	float: left;
+	border-bottom: 0.5px solid #303030;
+	background-color: black;
+	text-decoration: none;
+	color:White;
+	cursor: pointer;
+}
+.Nav-bar a:hover{
+	background-color: #CC2626;
+}
+.Nav-bar .Social a:hover{
+	background-color: Black !important;
+}
+.Social:hover .Social-Dropdown{
+	display: inline-block;
+}
+.Social-Dropdown a{
+	width: 16px;
+	padding: 0;
+	float: none;
+	border-bottom: none;
+	cursor: pointer;
+}
+.Social-Dropdown {
+	left: 10px;
+	padding: 4px;
+	padding-bottom: 0px;
+	display: none;
+	position: relative;
+	border: 0.5px solid #303030;
+	border-top: none;
+	background-color: black;
+}
+.Menu:hover .Nav-bar{
+	display: block;
+}
+#twitter{
+	position: absolute;
+	top: 1120px;
+	left: 50%;
+	margin-left: -40%;
+	width: 80%;
+	height: 400px;
+	float: left;
+}
+#Lower-News{
+	top: 40px;
+	width: 100%;
+}
+.News_Item1{
+	position: absolute;
+	top: 20px;
+	left: 30%;
+	margin-left: -160px;
+}
+.News_Item2{
+	position: absolute;
+	top: 20px;
+	right: 30%;
+	margin-right: -160px;
+}
+.News_Item3{
+	position: absolute;
+	top: 380px;
+	left: 30%;
+	margin-left: -160px;
+}
+.News_Item4{
+	position: absolute;
+	top: 380px;
+	right: 30%;
+	margin-right: -160px;
+}
+.Event_Table_Title{
+	font-size: 100%;
+}
+.Event .Event_Details{
+	font-size: 75%;
+}
+.Event .Coachella_Ticket_Button{
+	font-size: 75%;
+}
+.Event .Boston_Ticket_Button{
+	font-size: 75%;
+}
+.Event .Governors_Ticket_Button{
+	font-size: 75%;
+}
+.Coachella_Directions_Button1{
+	font-size: 75%;
+}
+.Coachella_Directions_Button2{
+	font-size: 75%;
+}
+.Boston_Directions_Button1{
+	font-size: 75%;
+}
+.Boston_Directions_Button2{
+	font-size: 75%;
+}
+.Boston_Directions_Button3{
+	font-size: 75%;
+}
+.Governors_Directions_Button1{
+	font-size: 75%;
+}
+.Governors_Directions_Button2{
+	font-size: 75%;
+}
+.Governors_Directions_Button3{
+	font-size: 75%;
+}
+.Video_Title{
+	top: 30px;
+	font-size: 150%;
+}
+.Interview_Video{
+	height: 400px;
+}
+.Orange_Video{
+	height: 400px;
+}
+#Video3{
+	margin-top: -30px;
+}
+#Video4{
+	margin-top: -30px;
+}
+#Video5{
+	margin-top: -30px;
+}
+#Video6{
+	margin-top: -30px;
+}
+.Shop_Item{
+	width: 33.3333333%;
+}
+.Shop_Item h1{
+	font-size: 75%;
+	height: 42px;
+}
+.Shop_Item h2{
+	font-size: 75%;
+}
+.Sizes a{
+	font-size: 75%;
+}
+#Album_Page{
+	top: 42px;
+	height: 669px;
+}
+#Album_Songs a{
+	font-size: 75%;
+}
+#Album_Details a{
+	font-size: 75%;
+}
+.Demo_Video{
+	height: 400px;
+}
+@media(max-width: 750px){	/* Used when under 750px wide */
+/*  Home page  */
+#Latest_News{
+	width: 100%;
+	border-right: none;
+	margin-top: -30px;
+}
+#Upcoming_Events{
+	width: 100%;
+	border-bottom: 1px solid #303030;
+}
+#More_Buttons{
+	height: 620px;
+}
+#Bottom_Buttons{
+	position: relative;
+	width: 100%;
+	height: 150px;
+}
+#More_Buttons img{
+	height: 150px;	
+	width: 150px;	
+}
+.Announcement{
+	font-size: 100%;
+}
+.Link{
+	font-size: 100%;
+	top: -110px;
+	width: 102px;
+}
+.Shop{
+	left: 50%;
+	margin-left: -75px;
+}
+.Music{
+	top: 250px;
+	left: 50%;
+	margin-left: -75px;
+}
+.Video{
+	top: 450px;
+	left: 50%;
+	margin-left: -75px;
+}
+.ShopText{
+	left: 50%;
+	margin-left: -45.345px;
+	text-align: center;
+}
+.MusicText{
+	top: 210px;
+	text-align: center;
+}
+.VideoText{
+	top: 410px;
+	left: 50%;
+	margin-left: -49.79px;
+}
+.News_Item1{
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: -150px;
+}
+.News_Item2{
+	position: absolute;
+	top: 380px;
+	left: 50%;
+	margin-left: -150px;
+}
+.News_Item3{
+	position: absolute;
+	top: 740px;
+	left: 50%;
+	margin-left: -150px;
+}
+.News_Item4{
+	position: absolute;
+	top: 1100px;
+	left: 50%;
+	margin-left: -150px;
+}
+.News_Announcement{
+	font-size: 100%;
+}
+.News_Link{
+	font-size: 100%;
+	top: -110px;
+	width: 102px;
+}
+#Lower-News{
+	height: 1470px;
+}
+#twitter{
+	top: 1840px;
+}
+.Event_Table_Title{
+	font-size: 100%;
+}
+.Event .Event_Details{
+	font-size: 75%;
+}
+.Event .Coachella_Ticket_Button{
+	font-size: 75%;
+}
+.Event .Boston_Ticket_Button{
+	font-size: 75%;
+}
+.Event .Governors_Ticket_Button{
+	font-size: 75%;
+}
+.Event .Directions_Button{
+	font-size: 75%;
+}
+.Video_Title{
+	top: 20px;
+	font-size: 80%;
+}
+.Interview_Video{
+	height: 200px;
+}
+.Orange_Video{
+	height: 200px;
+}
+#Video3{
+	margin-top: -20px;
+}
+#Video4{
+	margin-top: -20px;
+}
+#Video5{
+	margin-top: -20px;
+}
+#Video6{
+	margin-top: -20px;
+}
+.Eminem_Image{
+	width: 150px;
+	height: 333px;
+}
+.Eminem_Image img{
+	width: 150px;
+	height: 333px;
+}
+.Description{
+	display: none;
+}
+.Album_Section{
+	width: 50%;
+}
+#Bottom_Buttons2{
+	top: 360px;
+}
+.Shop_Item{
+	width: 50%;
+}
+#Album_Page{
+	width: 90%;
+	left: 50%;
+	margin-left: -45%;
+	top: 42px;
+	height: 612px;
+}
+#Album_Songs a{
+	font-size: 50%;
+}
+#Album_Details a{
+	font-size: 50%;
+}
+/*  End of Home page  */
+}
+@media(max-width: 600px){
+.Shop_Page{
+	top: 95px !important;
+}
+.Search_Bar{	
+	position: absolute;
+	margin-top: -33px;
+	width: 100%;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+	border: none;
+	padding: 0;
+}
+.Search_Bar a{
+	vertical-align: center;
+	padding: 0;
+	cursor: pointer;
+	font-size: 70%;
+}
+.Shopping_Cart{
+	width: 40px !important;
+	left:0;
+	padding: 0 ;
+	margin: -8px 0 0 0;
+	border: none;
+}
+.Shopping_Cart img{
+	position: relative;
+	left: 0;	
+	margin: 0;
+	width: 30px;
+	height: auto;
+	padding: 0;
+	cursor: pointer;
+}
+#revival_filter{
+	padding-top: 0px;
+}
+}
+/*  Constant for under 1020px  */
+#Title {
+	height: 50px;
+	width: 100%;
+	top: 0;
+	background-color: black;
+	position: fixed;
+	z-index: +5;
+	border-bottom: 1px solid #303030;
+}
+#Featured{
+	top: 43px;
+}
+.Home_Event .Home_Event_Details .Home_Event_Date{
+	font-size: 75%;
+}
+.Home_Event .Home_Event_Details .Home_Event_Venue{
+	font-size: 75%;
+}
+.Home_Event .Home_Event_Details .Home_Event_Location{
+	font-size: 75%;
+}
+#Main-News{
+	top: 43px;
+	height: 300px;
+}
+#Main-News img{
+	height: 300px;
+}
+#Lower-News{
+	border-bottom: 1px solid #303030;
+}
+#Videos{
+	top:43px;
+}
+.Rdate{
+	font-size: 50%;
+}
+.Album_Section{
+	padding: 10px;
+}
+.Shop_Page{
+	top: 42px;
+}
+/*  End of constant for under 1020px  */
+}
+@media (min-width: 1021px){
+/*  Home page  */
+#Featured{
+	top: 97px;
+}
+#Latest_News{
+	margin-top: -32px;
+}
+#Upcoming_Events{
+	margin-top: -32px;
+}
+/*  End of home page  */
+/*  Home button and nav-bar  */
+#Title {
+	height: 104px;
+	width: 100%;
+	top: 0;
+	background-color: black;
+	position: fixed;
+	z-index: +5;
+	border-bottom: 1px solid #303030;
+}
+.Home_Button{
+	position: fixed;
+	z-index: +1;
+	background-color: black;
+	top: 20px;
+	left:50%;
+	width: 300px;
+	height: 50px;		
+	margin-left: -150px;
+	cursor: pointer;
+}
+.Menu-Pic {
+	height: 30px;
+	width: 30px;
+	visibility:hidden;
+}
+.Nav-bar{
+	top: 86px;
+	left:50%;
+	margin-left: -500px;
+	display:flex;
+	justify-content: space-between;
+	position:fixed;
+	z-index: +1;
+	background-color: black;
+	max-width:1000px;
+	width:100%;
+	list-style:none;  
+	padding:0;
+}
+.Nav-bar li {
+	display:inline;
+}
+.Nav-bar a{
+	text-decoration:none;
+	color: white;
+	display:inline-block;	
+}
+.Social{
+	cursor: pointer;
+	text-decoration:none;
+	color: white;
+}
+.Nav-bar a:hover{
+	color: #CC2626;
+}
+.Social:hover .Social-Dropdown{
+	display: block;
+}
+.Social-Dropdown {
+	border: 0.5px solid #303030;
+	z-index: +1;
+	display: none;
+	position: absolute;
+	border-top: none;
+	background-color: black;	
+}
+/*  End of home button and nav-bar  */
+}
+
+
+
+
